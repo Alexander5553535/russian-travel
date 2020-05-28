@@ -1,4 +1,4 @@
-.place__123{
+.place__web-area{
     display: flex;
     flex-direction: column;
     padding-bottom: 24px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__123 {
+    .place__web-area {
         width: 456px;
         font-size: 16px;
         line-height: 1.62;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .place__123 {
+    .place__web-area {
         width: 352px;
         font-size: 16px;
         line-height: 1.62;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .place__123 {
+    .place__web-area {
         display: none;
     }
 }

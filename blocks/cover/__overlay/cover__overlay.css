@@ -1,5 +1,4 @@
 .cover__overlay{
-    position: absolute;
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
@@ -8,11 +7,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-height: 740px;
     max-width: 1184px;
+    min-height: 740px;
 }
 
 
 .cover__overlay:hover{
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+    .cover__overlay{
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cover__overlay{
+        width: 100%;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__overlay{
+        width: 100%;
+        min-height: 200px;
+    }
 }

@@ -2,7 +2,7 @@
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__website/place__website.css);
 @import url(./__title/place__title.css);
-@import url(./__123/place__123.css);
+@import url(./__web-area/place__web-area.css);
 .place{
     display: grid;
     grid-template-columns: min-content min-content;
