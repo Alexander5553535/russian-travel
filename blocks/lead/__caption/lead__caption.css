@@ -6,13 +6,8 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     width: 159px;
-    height: 14px;
 }
 
-@media screen and (max-width: 1024px) {
-    .lead__caption {
-    }
-}
 
 @media screen and (max-width: 768px) {
     .lead__caption {
