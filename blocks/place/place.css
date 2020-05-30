@@ -3,6 +3,7 @@
 @import url(./__website/place__website.css);
 @import url(./__title/place__title.css);
 @import url(./__web-area/place__web-area.css);
+@import url(./__URL/place__URL.css);
 .place{
     display: grid;
     grid-template-columns: min-content min-content;

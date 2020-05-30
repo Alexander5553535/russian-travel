@@ -1,8 +1,7 @@
 .place__web-area{
     display: flex;
     flex-direction: column;
-    padding-bottom: 24px;
-    margin-top: 100px;
+    align-self: end;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,7 +9,6 @@
         width: 456px;
         font-size: 16px;
         line-height: 1.62;
-        margin-top: 80px
     }
 }
 
@@ -19,7 +17,6 @@
         width: 352px;
         font-size: 16px;
         line-height: 1.62;
-        margin-top: 0;
     }
 }
 
