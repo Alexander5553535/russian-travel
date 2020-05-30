@@ -2,7 +2,7 @@
     margin-top: 46px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .header__lang-links{
         margin-top: 30px;
         margin-right: 16px;

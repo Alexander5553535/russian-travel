@@ -1,15 +1,14 @@
-.header__lang-link-ru{
-    width: 30px;
+.header__lang-link_active{
+    width: 29px;
     font-size: 24px;
     line-height: 1.17;
     text-decoration-line: underline;
     margin-right: 18px;
 }
 
-@media screen and (max-width: 320px){
-    .header__lang-link-ru{
+@media screen and (max-width: 425px){
+    .header__lang-link_active{
         width: 22px;
-        height: 24px;
         font-size: 18px;
         line-height: 1.33;
     }
