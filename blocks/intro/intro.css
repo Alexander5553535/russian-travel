@@ -3,7 +3,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__subtitle-bold/intro__subtitle-bold.css);
 .intro{
-    margin: 0 148px 0;
+    margin: 92px 148px 0;
 }
 
 @media screen and (max-width: 1024px){
@@ -14,12 +14,12 @@
 
 @media screen and (max-width: 768px){
     .intro{
-        margin: 0 24px 0;
+        margin: 88px 24px 0;
     }
 }
 
 @media screen and (max-width: 425px){
     .intro{
-        margin: 0 16px 0;
+        margin: 64px 16px 0;
     }
 }
