@@ -2,7 +2,11 @@
     width: 484px;
     font-size: 18px;
     line-height: 1.67;
-    margin: 24px 0 0;
+    margin: 0 0 24px;
+}
+
+.place__paragraph:last-of-type{
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,6 +26,9 @@
 @media screen and (max-width: 425px) {
     .place__paragraph {
         width: 288px;
+        margin: 0 16px 24px;
+    }
+    .place__paragraph:last-of-type{
         margin: 0 16px 0;
     }
 }

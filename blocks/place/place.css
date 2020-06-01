@@ -5,10 +5,16 @@
 @import url(./__web-area/place__web-area.css);
 @import url(./__URL/place__URL.css);
 .place{
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: min-content min-content;
+    grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
     grid-column-gap: 40px;
-    margin-top: 80px;
+    grid-row-gap: 48px;
+    margin: 0 0 80px;
+}
+
+.place:last-of-type{
+    margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,13 +27,14 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-column-gap: 28px;
-        margin-top: 72px;
+        margin: 0 0 72px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place {
         grid-template-columns: 1fr;
-        margin-top: 48px;
+        margin: 0 0 48px;
+        grid-row-gap: 32px;
     }
 }

@@ -1,4 +1,5 @@
-@import url(./_text/intro__subtitle_text.css);
+@import url(./intro__subtitle-text.css);
+@import url(./intro__subtitle-bold.css);
 .intro__subtitle{
     font-size: 12px;
     line-height: 18px;

@@ -8,6 +8,8 @@
     align-items: center;
     max-width: 1184px;
     min-height: 740px;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -23,14 +25,12 @@
 
 @media screen and (max-width: 768px){
     .cover__overlay{
-        width: 100%;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 425px){
     .cover__overlay{
-        width: 100%;
         min-height: 200px;
     }
 }
