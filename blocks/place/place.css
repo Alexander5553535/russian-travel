@@ -1,9 +1,10 @@
 @import url(./__image/place__image.css);
+@import url(./__text/place__text.css);
 @import url(./__paragraph/place__paragraph.css);
 @import url(./__website/place__website.css);
 @import url(./__title/place__title.css);
 @import url(./__web-area/place__web-area.css);
-@import url(./__URL/place__URL.css);
+@import url(./__URL/place__url.css);
 .place{
     box-sizing: border-box;
     display: grid;
@@ -19,8 +20,8 @@
 
 @media screen and (max-width: 1024px) {
     .place {
+        grid-template-columns: repeat(auto-fit, minmax(340px, max-content));
         grid-column-gap: 32px;
-        grid-template-columns: min-content min-content;
     }
 }
 
