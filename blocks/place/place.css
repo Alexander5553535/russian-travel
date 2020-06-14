@@ -4,7 +4,7 @@
 @import url(./__website/place__website.css);
 @import url(./__title/place__title.css);
 @import url(./__web-area/place__web-area.css);
-@import url(./__URL/place__url.css);
+@import url(./__url/place__url.css);
 .place{
     box-sizing: border-box;
     display: grid;
