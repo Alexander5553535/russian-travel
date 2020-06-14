@@ -1,22 +1,31 @@
-.lead__subtitle{
-    width: 640px;
+.lead__subtitle {
+    margin: 0 auto 64px;
+    font-weight: normal;
     font-size: 30px;
-    line-height: 1.2;
+    line-height: 36px;
     text-align: center;
-    margin: 32px 0 64px;
-}
-
-@media screen and (max-width: 1024px) {
+    color: #fff;
+    max-width: 640px;
+  }
+  
+  @media screen and (max-width : 1024px) {
     .lead__subtitle {
-        margin: 32px 0 56px;
+      margin-bottom: 56px;
     }
-}
-
-@media screen and (max-width: 425px) {
+  }
+  
+  @media screen and (max-width : 425px) {
     .lead__subtitle {
-        width: 288px;
-        font-size: 16px;
-        line-height: 1.25;
-        margin: 16px 0 40px;
+      margin-bottom: 40px;
+      font-size: 16px;
+      line-height: 20px;
+      max-width: 320px;
     }
-}
+  }
+  
+  @media screen and (max-width : 320px) {
+    .lead__subtitle {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  }
